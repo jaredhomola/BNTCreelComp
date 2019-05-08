@@ -10,8 +10,8 @@ library(tidyverse)
 allGeno.dat <- import2genind("./extData/msat_gt_genepop.gen", ncode=3)
 
 pop <- c(rep("WR_MI",50),rep("SE_MI",50),rep("Sturgeon",50),rep("Gilchrist",50),
-         rep("SE_WI",50),rep("WR_WI",50),rep("Creel_Frankfort",43),rep("Creel_Ludington",32),
-         rep("Creel_Manistee",44),rep("Creel_Onekama",3))
+         rep("SE_WI",50),rep("WR_WI",50),rep("Creel_Frankfort",40),rep("Creel_Ludington",32),
+         rep("Creel_Manistee",43),rep("Creel_Onekama",3))
 
 allGeno.dat@pop <- as.factor(pop)
 hatcheryGeno.dat <- allGeno.dat[pop=c("WR_MI", "SE_MI", "Sturgeon", "Gilchrist", "SE_WI", "WR_WI")]
