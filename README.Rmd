@@ -2,7 +2,9 @@
 title: "BNTCreelComp"
 author: "Jared J. Homola"
 date: "July 8, 2019"
-output: html_document
+output:
+  md_document: default
+html_document: default
 ---
 
 
