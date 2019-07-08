@@ -3,8 +3,13 @@
 #####             BNTCreelComp analyses             #####
 #########################################################
 
-list.of.packages <- c("PopGenReport", "tidyverse", "rubias",
-                      "adegenet", "mmod", "hierfstat")
+list.of.packages <- c("PopGenReport",
+                      "tidyverse",
+                      "rubias",
+                      "adegenet",
+                      "mmod",
+                      "hierfstat",
+                      "rcompanion")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 
