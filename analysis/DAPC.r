@@ -7,8 +7,8 @@
 library(adegenet)
 library(tidyverse)
 library(ggrepel)
-library(BNTCreelComp)
-data(BNTCreelComp)
+library(BNTHarvestComposition)
+data(BNTHarvestComposition)
 
 hatchery.dat <- allGeno.dat[pop=c("WR_MI", "SE_MI", "Sturgeon", "Gilchrist", "SE_WI", "WR_WI")]
 creel.dat <- allGeno.dat[pop=c("Creel_Frankfort", "Creel_Ludington", "Creel_Manistee", "Creel_Onekama")]

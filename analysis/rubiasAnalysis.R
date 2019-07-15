@@ -5,8 +5,8 @@
 ##### Load packages #####
 library(tidyverse)
 library(rubias)
-library(BNTCreelComp)
-data(BNTCreelComp)
+library(BNTHarvestComposition)
+data(BNTHarvestComposition)
 
 #### Import data sets ####
 reference.tib <- as_tibble(rubiasReference) %>%

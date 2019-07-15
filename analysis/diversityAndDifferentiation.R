@@ -7,8 +7,8 @@ library(hierfstat)
 library(adegenet)
 library(tidyverse)
 library(mmod)
-library(BNTCreelComp)
-data(BNTCreelComp)
+library(BNTHarvestComposition)
+data(BNTHarvestComposition)
 
 
 ##### Calculate diversity measures #####

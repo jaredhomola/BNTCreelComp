@@ -1,6 +1,8 @@
-BNTCreelComp (Brown trout creel composition) is a research compendium
-that brings together the data and analyses associated with Homola et al.
-(In Press), Journal of Great Lakes Research. R scripts are provided in
+BNTHarvestComposition (Brown trout harvest composition) is a research
+compendium that brings together the data and analyses associated with
+Homola et al. 2019, Genetic estimates of jurisdictional and strain
+contributions to the northeastern Lake Michigan brown trout sportfishing
+harvest, Journal of Great Lakes Research. R scripts are provided in
 analysis/, human-readable data in extData/, and R-readable data in an
 .rda file in data/.
 
@@ -12,7 +14,7 @@ version 3.5.1 in Windows 10
     options(repos=structure(c(CRAN="http://cran.r-project.org")))
     install.packages("devtools")
     library(devtools)
-    install_github("jaredhomola/BNTCreelComp")
+    install_github("jaredhomola/BNTHarvestComposition")
 
 ### Scripts in /analysis
 

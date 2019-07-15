@@ -36,4 +36,4 @@ rubiasReference <- read.csv("./extData/rubiasReference.csv")
 rubiasMixture <- read.csv("./extData/rubiasMixture.csv")
 
 ### Save as a .rda file ###
-save(creelGeno.dat, hatcheryGeno.dat, allGeno.dat, stocking.tib, ld, rubiasReference, rubiasMixture, file = "./data/BNTCreelComp.rda")
+save(creelGeno.dat, hatcheryGeno.dat, allGeno.dat, stocking.tib, ld, rubiasReference, rubiasMixture, file = "./data/BNTHarvestComposition.rda")

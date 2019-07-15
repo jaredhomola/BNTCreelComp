@@ -8,8 +8,8 @@ library(PopGenReport)
 library(adegenet)
 library(tidyverse)
 library(qvalue)
-library(BNTCreelComp)
-data(BNTCreelComp)
+library(BNTHarvestComposition)
+data(BNTHarvestComposition)
 
 ######            Run PopGenReport to obtain allele counts, Hardy-Weinberg tests,                 ######
 ######  allele distributions by population, null allele frequencies, allelic richness estimates   ######
